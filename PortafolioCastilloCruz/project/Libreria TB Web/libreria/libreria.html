@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <i class="fa-solid fa-sun" onclick=""></i>
+            <img src="image/Texto.ico" alt="" class="imagen-txt">
+            <div class="barra-busqueda">
+                <input type="text" placeholder="Buscar...">
+                <button class="Buscar"><i class="fa-solid fa-search"></i></button>
+            </div>
+        </header>
+        <nav>
+            <h1 class="txt">categoria</h1>
+            <div class="categoria">
+                <ul class="contenedor-categoria">
+                    <li>
+                        <a href="#novela" class="txt"><h2 class="txt">Novela</h2></a>
+                    </li>
+                    <li>
+                        <a href="#obra" class="txt"><h2 class="txt">Obra</h2></a>
+                    </li>
+                    <li>
+                        <a href="#cuento" class="txt"><h2 class="txt">Cuento</h2></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <main>
+            <section id="novela" class="categoria-seleccion">
+                <h2 class="#" id="txt">Novelas</h2>
+                <div class="categoria-lista">
+                    <img src="image/novelas/laisladeltesoro.jpg" alt="La isla del tesoro" class="imagen">
+                    <img src="image/novelas/unasesinobrillante.jpeg" alt="Un asesino brillante" class="imagen">
+                    <img src="image/novelas/lasvocesdellago.jpeg" alt="las voces del lago" class="imagen">
+                </div>
+            </section>
+
+            <section id="obra" class="categoria-seleccion">
+                <h2 class="#" id="txt">Obras</h2>
+                <div class="categoria-lista">
+                    <img src="image/obras/pacoyunque.jpeg" alt="Paco Yunque" class="imagen">
+                    <img src="image/obras/romeoyjulieta.jpeg" alt="Romeo y Julieta" class="imagen">
+                    <img src="image/obras/fuenteovejuna.jpeg" alt="Fuente ovejuna" class="imagen">
+                </div>
+            </section>
+
+            <section id="cuento" class="categoria-seleccion">
+                <h2 class="#" id="txt">Cuentos</h2>
+                <div class="categoria-lista">
+                    <img src="image/cuentos/lostrescerditos.jpeg" alt="Los tres cerditos" class="imagen">
+                    <img src="image/cuentos/caperucitaroja.jpeg" alt="Caperucita roja" class="imagen">
+                    <img src="image/cuentos/elgatoconbotas.jpeg" alt="El gato con botas" class="imagen">
+                </div>
+            </section>
+        </main>
+</body>
+</html>

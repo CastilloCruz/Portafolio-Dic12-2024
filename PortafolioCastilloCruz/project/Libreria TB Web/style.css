@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 10px;
+    background-image: url(image/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo-contenedor {
+    width: 400px;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0,5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(0, 0, 0, 0.603);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.datos{
+    border: none;
+    outline: none;
+    background: none;
+    width: 250px;
+    margin-top: 40px;
+    padding-right: 10px;
+    font-size: 17px;
+}
+::placeholder{
+    color: rgb(24, 24, 24);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: black;
+}
+.ingresar-datos{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin: 15px 0;
+}
+button {
+    color: white;
+    border: none;
+    outline: none;
+    width: 288px;
+    margin-top: 25px;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: linear-gradient(45deg, rgba(26, 26, 26, 0.836), #833636dc);
+    border-bottom: 1px solid black;
+}
+button:hover {
+    color: black;
+    border-color: black;
+    background: linear-gradient(45deg, rgba(26, 26, 26, 0.363), #8336365d);
+}
